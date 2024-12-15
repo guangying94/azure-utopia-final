@@ -1,0 +1,32 @@
+### Stage 2
+POST https://xxxxx-apim.azure-api.net/utopiabackend/query
+Content-Type: application/json
+
+{
+  "message": "what is the campaign name?"
+}
+
+### Stage 3
+POST https://xxxxx-apim.azure-api.net/utopiabackend/apply
+Content-Type: application/json
+
+{
+    "applicant_details": "my name is john. my passenger id is 123. I'm a male, 60 years old. i work as an engineer. i have any crime history. i habe diabetes. my health category is 8."
+}
+
+### Stage 4
+POST https://xxxxx-apim.azure-api.net/utopiabackend/check
+Content-Type: application/json
+
+{
+    "image_url": "https://thumbs.dreamstime.com/b/overhead-view-traveler-s-accessories-organized-open-luggage-wooden-floor-94372663.jpg",
+    "passenger_id": "123"
+}
+
+### Stage 5
+POST https://xxxxx-apim.azure-api.net/utopiabackend/feedback
+Content-Type: application/json
+
+{
+  "feedback": "the train is convenient"
+}

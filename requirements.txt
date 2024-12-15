@@ -1,0 +1,10 @@
+Flask
+openai
+python-dotenv
+azure-identity
+requests
+azure-ai-inference
+azure-cosmos
+pandas
+scikit-learn
+joblib
