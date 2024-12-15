@@ -12,6 +12,8 @@ Flask
 
 ### Step 2: Create a Python Flask API
 Create a file called `main.py` and add the following content.
+
+
 🤖 Sample GitHub Copilot Prompt
 ```text
 create a flask api with an endpoint for health.
@@ -32,6 +34,8 @@ if __name__ == '__main__':
 
 ### Step 3: Build Dockerfile
 Create a file called `Dockerfile` and add the following content.
+
+
 🤖 Sample GitHub Copilot Prompt
 ```text
 create a Dockerfile for Python Flask API.

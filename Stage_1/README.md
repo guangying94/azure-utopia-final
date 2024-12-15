@@ -25,11 +25,15 @@ UNIQUE_NAME="<replace-with-your-unique-name>"
 az login
 
 ### Install Azure CLI Extensions
+```bash
+# reinstall azure ml extension
 az extension remove -n ml
 az extension add -n ml
 az extension update -n ml
+```
 
 ### Create Resource Group for entire project
+```bash
 az group create --name $RG_NAME --location $LOCATION
 ```
 
