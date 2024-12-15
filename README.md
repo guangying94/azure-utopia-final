@@ -81,3 +81,16 @@ The following are the tasks that need to be completed for the Azure Utopia proje
 | 3       | You Are The Lucky One             | [Reference](./Stage_3/README.md)  |
 | 4       | Onboard Now            | [Reference](./Stage_4/README.md)  |
 | 5       | Welcome To Utopia!             | [Reference](./Stage_5/README.md)  |
+
+## Azure Utopia Project Architecture
+Congratulations! This is what we have built!
+
+![Azure Utopia Project Architecture](./asset/architecture.png)
+
+## Clean Up
+The project is designed to be self-contained. However, you can clean up the resources by deleting the resource group.
+```bash
+RG_NAME="RG-azure-utopia"
+
+az group delete --name $RG_NAME --yes --no-wait
+```
