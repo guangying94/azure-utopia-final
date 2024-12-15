@@ -22,7 +22,10 @@ UNIQUE_NAME="<replace-with-your-unique-name>"
 ```
 
 ## Login to Azure
+To login to Azure, run the following command in a bash shell with Azure CLI installed.
+```bash
 az login
+```
 
 ### Install Azure CLI Extensions
 ```bash
