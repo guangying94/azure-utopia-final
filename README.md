@@ -87,6 +87,8 @@ Congratulations! This is what we have built!
 
 ![Azure Utopia Project Architecture](./asset/architecture.png)
 
+Here's the presentation slide shared: [Azure Utopia Event PDF](./asset/Azure%20Utopia%20Event.pdf)
+
 ## Clean Up
 The project is designed to be self-contained. However, you can clean up the resources by deleting the resource group.
 ```bash
